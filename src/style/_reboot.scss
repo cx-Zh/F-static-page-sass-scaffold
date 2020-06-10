@@ -12,9 +12,6 @@ body {
   color: $color-base;
   background-color: $body-bg;
   line-height: $line-height-base;
-  padding-left: 600px;
-  padding-right: 600px;
-  padding-top: 200px;
 }
 
 * {
@@ -46,4 +43,12 @@ button {
 h1 {
   color: $heading-color;
   margin: 0;
+  padding-bottom: 20px;
+  align-self: center;
+}
+
+hr{
+  width:100%;
+  color:$color-base;
+  height: 1px;
 }
