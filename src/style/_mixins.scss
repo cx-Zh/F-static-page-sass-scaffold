@@ -6,7 +6,7 @@
 @mixin btn-variant($color, $bg-color) {
   color: $color;
   background-color: $bg-color;
-  padding: $btn-padding-x;
+  padding: $btn-padding-x $btn-padding-y;
   border-radius: 20px;
   border-color: $blue-light;
 }

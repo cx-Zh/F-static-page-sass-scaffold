@@ -2,5 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 
+  nav {
+    //@extend .menu;
+    padding-left: 30px;
+    button{
+      margin-left: 5px;
+    }
+  }
 }

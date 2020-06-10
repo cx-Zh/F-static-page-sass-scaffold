@@ -43,12 +43,22 @@ button {
 h1 {
   color: $heading-color;
   margin: 0;
-  padding-bottom: 20px;
   align-self: center;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 hr{
   width:100%;
-  color:$color-base;
+  background-color:$color-base;
   height: 1px;
+  border: 0;
+}
+
+h2 {
+  color: $heading-color;
+  margin: 0;
+  align-self: center;
+  font-size: 32px;
+  padding-bottom: 20px;
 }
